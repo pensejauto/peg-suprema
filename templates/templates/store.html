@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>PEGSTORE</title>
+</head>
+<body>
+    <h1>PEGSTORE 🛒</h1>
+    <p>Produtos carregados da base <code>products.json</code>:</p>
+    <ul>
+        {% for product in products %}
+        <li>{{ product.name }} - R$ {{ product.price }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Voltar</a>
+</body>
+</html>
