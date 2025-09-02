@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>PEGSTORE</title>
+  <style>
+    body {background:#0b0f14;color:#e6edf3;font-family:Arial, sans-serif;}
+    .grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin:20px;}
+    .card {background:#111723;padding:16px;border-radius:12px;border:1px solid #1f2a3a}
+    a {color:#5eead4;text-decoration:none}
+    .price {color:#c3f0e8;font-weight:bold}
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center">🛒 PEGSTORE</h1>
+  <div class="grid">
+    {% for p in products %}
+    <div class="card">
+      <img src="{{p.img}}" alt="{{p.name}}" style="width:100%;border-radius:8px">
+      <h3>{{p.name}}</h3>
+      <p class="price">{{p.price}}</p>
+      <p><a href="{{p.link}}" target="_blank">👉 Comprar</a></p>
+    </div>
+    {% endfor %}
+  </div>
+</body>
+</html>

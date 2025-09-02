@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ebook1",
+    "name": "E-book 21 Prompts (PEG)",
+    "price": "R$ 29,90",
+    "type": "digital",
+    "tag": "E-book",
+    "link": "https://pay.hotmart.com/SEU_LINK_AQUI",
+    "img": "https://dummyimage.com/400x250/0b0f14/5eead4&text=E-book+PEG"
+  },
+  {
+    "id": "curso1",
+    "name": "Mini-curso PEGDrive Básico",
+    "price": "R$ 97,00",
+    "type": "digital",
+    "tag": "Curso",
+    "link": "https://kiwify.com.br/SEU_LINK_AQUI",
+    "img": "https://dummyimage.com/400x250/0b0f14/cde8e2&text=Mini-curso+PEG"
+  }
+]
